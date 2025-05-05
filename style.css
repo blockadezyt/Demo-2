@@ -24,6 +24,11 @@ body {
   box-sizing: border-box;
 }
 
+/* Add scroll margin to elements with an ID */
+[id] {
+  scroll-margin-top: 140px; /* Same as nav height */
+}
+
 .nav__list {
   display: flex;
   padding: 0;
